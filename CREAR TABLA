@@ -1,0 +1,1 @@
+CREATE TABLE `MDB`.`usuarios` ( `id_user` INT(10) NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(20) NOT NULL , `apellidos` VARCHAR(20) NOT NULL , `email` VARCHAR(50) NOT NULL , `contraseña` VARCHAR(25) NOT NULL , PRIMARY KEY (`id_user`(10))) ENGINE = InnoDB;

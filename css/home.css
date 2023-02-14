@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    background-color: #000000;
+    width: 100%;
+    font-size: 12;
+    position: fixed
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 95px;
+    height: 95px;
+    float: left
+}
+
+.search {
+    padding-left: 50px;
+    padding-right: 252px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    float: left
+}
+
+.search input[type=text] {
+    border-radius: 10px;
+    width: 500px;
+    height: 35px;
+    color: #fffb05;
+    border: 2px solid #fffb05;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: 0;
+    background-color: #ffbcd0
+}
+
+.txt {
+    padding-left: 50px;
+    padding-right: 60px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    float: left;
+    color: #ecfffe
+}
+
+.txt a {
+    text-decoration: none;
+    color: #ecfffe
+}
+
+.header {
+    margin: 0 auto;
+    float: left;
+    width: 100%
+}
+
+ul {
+    list-style: none
+}
+
+#menu li>a {
+    background-color: #fffb05;
+    color: #ecfffe;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+    border-bottom: 1px solid #bebebe;
+    border-radius: 2px
+}
+
+#menu li>a:hover {
+    color: #fff;
+    background-color: #921638
+}
+
+#menu>li {
+    float: left;
+    text-align: center
+}
+
+#menu>li>ul {
+    display: none
+}
+
+#menu>li:hover>ul {
+    display: block
+}
+
+.containerC {
+    font-family: Poppins, sans-serif;
+    float: left;
+    z-index: 10;
+    padding-top: 190px
+}
+
+.containerC .carrusel {
+    text-align: center;
+    width: 1304px;
+    height: 325px;
+    background: rgba(255, 255, 255, .05);
+    margin-left: 21px;
+    border-radius: 15px;
+    border: 2px solid #c2c2c2;
+    cursor: pointer
+}
+
+.containerC .carrusel:hover {
+    box-shadow: 0 10px 25px rgba(97, 97, 97, .336);
+    border: 2px solid #fffb05
+}
+
+.containerC .carrusel img {
+    width: 1304px;
+    height: 325px;
+    max-width: 100%;
+    margin: 0 0 20px;
+    transition: .5s ease-in-out;
+    border-radius: 15px
+}
+
+.container {
+    font-family: Poppins, sans-serif;
+    float: left;
+    z-index: 10;
+    padding-top: 60px
+}
+
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    font-size: 30px;
+    color: #fffb05
+}
+
+.container h2 {
+    font-size: 20px
+}
+
+.container h4 {
+    color: #433e5f
+}
+
+.container h5 {
+    color: #797979;
+    text-decoration: line-through
+}
+
+.container .card {
+    float: left;
+    text-align: center;
+    width: 290px;
+    height: 460px;
+    margin: 20px 21px;
+    background: rgba(255, 255, 255, .05);
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #c2c2c2
+}
+
+.container .card:hover {
+    box-shadow: 0 10px 25px rgba(97, 97, 97, .336);
+    border: 2px solid #fffb05
+}
+
+.container .card .imgBx {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: .5% ease-in-out
+}
+
+.container .card .imgBx img {
+    width: 250px;
+    height: 320px;
+    max-width: 100%;
+    margin: 0 0 5px;
+    transition: .5s ease-in-out;
+    border-radius: 15px
+}
+
+.container .card .imgBx h2 {
+    color: #fffb05
+}
